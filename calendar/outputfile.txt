@@ -1,0 +1,205 @@
+calendar loaded
+['add', '2017-10-21', 9, 10, 'budget meeting']
+added
+['add', '2017-10-22', 6, 7, 'go to the gym']
+added
+['help']
+
+    Help for Calendar. The calendar commands are
+
+    add DATE START END DETAILS               add the event DETAILS at the specified DATE with specific START and END time
+    show                                     show all events in the calendar
+    delete DATE NUMBER             delete the specified event (by NUMBER) from
+                                   the calendar
+    quit                           quit this program
+    help                           display this help message
+
+    Examples: user data follows command:
+
+    command: add 2018-10-12 18 19 dinner with jane
+    success
+
+    command: show
+        2018-10-12 :
+            start : 08:00,
+            end : 09:00,
+            title : Eye doctor
+
+            start : 12:30,
+            end : 13:00,
+            title : lunch with sid
+
+            start : 18:00,
+            end : 19:00,
+            title : dinner with jane
+        2018-10-29 :
+            start : 10:00,
+            end : 11:00,
+            title : Change oil in blue car
+
+            start : 12:00,
+            end : 14:00,
+            title : Fix tree near front walkway
+
+            start : 18:00,
+            end : 19:00,
+            title : Get salad stuff, leuttice, red peppers, green peppers
+        2018-11-06 :
+            start : 18:00,
+            end : 22:00,
+            title : Sid's birthday
+
+    command: delete 2018-10-29 10
+    deleted
+
+    A DATE has the form YYYY-MM-DD, for example
+    2018-12-21
+    2016-01-02
+
+    START and END has a format HH where HH is an hour in 24h format, for example
+    09
+    21
+
+    Event DETAILS consist of alphabetic characters,
+    no tabs or newlines allowed.
+    
+['add', '2017-10-23', 5, 6, 'go to the gym']
+added
+['add', '2017-11-01', 15, 16, 'Make sure to submit csc108 assignment 2']
+added
+['help']
+
+    Help for Calendar. The calendar commands are
+
+    add DATE START END DETAILS               add the event DETAILS at the specified DATE with specific START and END time
+    show                                     show all events in the calendar
+    delete DATE NUMBER             delete the specified event (by NUMBER) from
+                                   the calendar
+    quit                           quit this program
+    help                           display this help message
+
+    Examples: user data follows command:
+
+    command: add 2018-10-12 18 19 dinner with jane
+    success
+
+    command: show
+        2018-10-12 :
+            start : 08:00,
+            end : 09:00,
+            title : Eye doctor
+
+            start : 12:30,
+            end : 13:00,
+            title : lunch with sid
+
+            start : 18:00,
+            end : 19:00,
+            title : dinner with jane
+        2018-10-29 :
+            start : 10:00,
+            end : 11:00,
+            title : Change oil in blue car
+
+            start : 12:00,
+            end : 14:00,
+            title : Fix tree near front walkway
+
+            start : 18:00,
+            end : 19:00,
+            title : Get salad stuff, leuttice, red peppers, green peppers
+        2018-11-06 :
+            start : 18:00,
+            end : 22:00,
+            title : Sid's birthday
+
+    command: delete 2018-10-29 10
+    deleted
+
+    A DATE has the form YYYY-MM-DD, for example
+    2018-12-21
+    2016-01-02
+
+    START and END has a format HH where HH is an hour in 24h format, for example
+    09
+    21
+
+    Event DETAILS consist of alphabetic characters,
+    no tabs or newlines allowed.
+    
+['add', '2017-12-02', 16, 17, 'Make sure to submit csc108 assignment 3']
+added
+['add', '2017-11-06', 8, 10, 'Term test 2']
+added
+['add', '2017-10-29', 7, 8, 'Get salad stuff,lettuce, red peppers, green peppers']
+added
+['add', '2017-11-06', 19, 22, "Sid's birthday"]
+added
+['show']
+
+2017-10-23 : 
+    start : 05:00,
+    end : 06:00,
+    title : go to the gym
+2017-10-22 : 
+    start : 06:00,
+    end : 07:00,
+    title : go to the gym
+2017-10-29 : 
+    start : 07:00,
+    end : 08:00,
+    title : Get salad stuff,lettuce, red peppers, green peppers
+2017-10-21 : 
+    start : 09:00,
+    end : 10:00,
+    title : budget meeting
+2017-11-01 : 
+    start : 15:00,
+    end : 16:00,
+    title : Make sure to submit csc108 assignment 2
+2017-12-02 : 
+    start : 16:00,
+    end : 17:00,
+    title : Make sure to submit csc108 assignment 3
+2017-11-06 : 
+    start : 19:00,
+    end : 22:00,
+    title : Sid's birthday
+
+    start : 08:00,
+    end : 10:00,
+    title : Term test 2
+['delete', '2017-10-29', 7]
+deleted
+['delete', '2015-12-03', 9]
+2015-12-03 is not a date in the calendar
+['delete', '2017-12-02', 16]
+deleted
+['show']
+
+2017-10-23 : 
+    start : 05:00,
+    end : 06:00,
+    title : go to the gym
+2017-10-22 : 
+    start : 06:00,
+    end : 07:00,
+    title : go to the gym
+2017-10-21 : 
+    start : 09:00,
+    end : 10:00,
+    title : budget meeting
+2017-11-01 : 
+    start : 15:00,
+    end : 16:00,
+    title : Make sure to submit csc108 assignment 2
+2017-11-06 : 
+    start : 19:00,
+    end : 22:00,
+    title : Sid's birthday
+
+    start : 08:00,
+    end : 10:00,
+    title : Term test 2
+['quit']
+calendar saved
